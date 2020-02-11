@@ -10,6 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/resources/featues/aprender_cucumber.feature",
 		glue = "br.lincoln.steps",
+		tags = "{@tipo1 , @tipo2}", //~@ignore usando para ignorear por tags
 		plugin = "pretty", // faz sair expecificação no console
 		monochrome = true, // remove caracteristicas especiais
 		snippets = SnippetType.CAMELCASE, // Deixa as especificações no CAMELCASE
