@@ -1,3 +1,4 @@
+package br.lincoln.steps;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -5,11 +6,13 @@ import java.util.Date;
 
 import org.junit.Assert;
 
+import br.lincoln.converters.DateConvert;
+import cucumber.api.Transform;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.it.Quando;
 import cucumber.api.java.pt.Então;
 
-public class AprenderCucumber {
+public class AprenderCucumberSteps {
 	@Dado("^que criei o arquivo corretamente$")
 	public void queCrieiOArquivoCorretamente() throws Throwable {
 	}
@@ -44,13 +47,9 @@ public class AprenderCucumber {
 
 	Date entrega = new Date();
 
-	@Dado("^que o prazo é dia (\\d+)/(\\d+)/(\\d+)$")
-	public void que_o_prazo_é_dia(int dia, int mes, int ano) throws Throwable {
-		Calendar cal = Calendar.getInstance();
-		cal.set(Calendar.DAY_OF_MONTH, dia);
-		cal.set(Calendar.MONDAY, mes - 1);
-		cal.set(Calendar.YEAR, ano);
-		entrega = cal.getTime();
+	@Dado("^que o prazo é dia (.*)$")
+	public void que_o_prazo_é_dia(@Transform(DateConvert.class) Date data) throws Throwable {
+		entrega = data;
 	}
 
 	@Quando("^a entrega atrasar em (\\d+) (dia|dias|mes|meses+)$")
