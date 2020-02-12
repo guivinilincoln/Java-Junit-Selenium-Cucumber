@@ -9,8 +9,8 @@ Funcionalidade: Locadora
     Dado um filme com estoque de 2 unidades
     E que o preço de aluguel seja R$ 3
     Quando alugar
-    Então o preço do aluguel será R$ 3
-    E a data de entrega será no dia seguinte
+    Então o preço do aluguel sera R$ 3
+    E a data de entrega será em 1 dia
     E o estoque do filme será 1 unidades
 
   Cenario: Não deve alugar filme sem estoque
@@ -26,3 +26,4 @@ Funcionalidade: Locadora
     Quando alugar
     Então o preço do aluguel sera R$ 8
     E a data de entrega sera em 3 dias
+    E a pontuação sera de 2 pontos
