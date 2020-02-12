@@ -2,6 +2,7 @@ package br.lincoln.steps;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Map;
 
 import org.junit.Assert;
 
@@ -9,6 +10,7 @@ import br.lincoln.entidades.Filme;
 import br.lincoln.entidades.NotaAluguel;
 import br.lincoln.entidades.utils.DateUtils;
 import br.lincoln.servicos.AluguelService;
+import cucumber.api.DataTable;
 import cucumber.api.java.es.Dado;
 import cucumber.api.java.it.Quando;
 import cucumber.api.java.pt.Então;
@@ -20,7 +22,7 @@ public class AlugarFilmeSteps {
 	private NotaAluguel nota;
 	private String erro;
 	private String tipoAlguel;
-	
+
 	@Dado("^um filme com estoque de (\\d+) unidades$")
 	public void umFilmeComEstoqueDeUnidades(int arg1) throws Throwable {
 		filme = new Filme();
@@ -77,17 +79,25 @@ public class AlugarFilmeSteps {
 		this.tipoAlguel = "extendido";
 	}
 
-	@Então("^a pontuação sera de (\\d+) pontos$")
+	@Então("^a pontuacao sera de (\\d+) pontos$")
 	public void aPontuaçãoSeraDePontos(int arg1) throws Throwable {
-	  Assert.assertEquals(arg1, nota.getPontuacao());
+		Assert.assertEquals(arg1, nota.getPontuacao());
 	}
 
 	@Então("^a data de entrega sera em (\\d+) dias?$")
 	public void aDataDeEntregaSeraEmDias(int arg1) throws Throwable {
-		Date dataEsperada  = DateUtils.obterDataDiferenteDias(arg1);
-		Date dataReal =  nota.getDataEntrega();
-		
+		Date dataEsperada = DateUtils.obterDataDiferenteDias(arg1);
+		Date dataReal = nota.getDataEntrega();
+
 		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 		Assert.assertEquals(format.format(dataEsperada), format.format(dataReal));
+	}
+
+	@Dado("^um filme$")
+	public void umFilme(DataTable table) throws Throwable {
+		Map<String, String> map = table.asMap(String.class, String.class);
+		filme = new Filme();
+		filme.setEstoque(Integer.parseInt(map.get("estoque")));
+		filme.setAlguel(Integer.parseInt(map.get("preco")));
 	}
 }

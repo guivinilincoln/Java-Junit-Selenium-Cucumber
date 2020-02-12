@@ -11,12 +11,12 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/resources/featues/alugar_filme.feature",
 		glue = "br.lincoln.steps",
 		tags = {}, //~@ignore usando para ignorear por tags
-		plugin = "pretty", // faz sair expecificação no console
-		monochrome = true, // remove caracteristicas especiais
+		plugin = {"pretty","html:target/report-html", "json:target/report.json"}, // traz um realtorio no console
+		monochrome = false, // remove caracteristicas especiais
 		snippets = SnippetType.CAMELCASE, // Deixa as especificações no CAMELCASE
 		dryRun = false, // quando "true" ele não executa os teste, so valida os steps
 		strict = false// quando "true" se um passo quebrar da todo teste com failed
 )
-public class Runner2 {
+public class Runner2Test {
 
 }
