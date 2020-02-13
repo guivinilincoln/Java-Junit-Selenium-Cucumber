@@ -1,4 +1,4 @@
-# language: pt
+# language: pt_br
 Funcionalidade: Locadora
   
   Como usuario
