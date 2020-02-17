@@ -1,5 +1,7 @@
-# language: pt_br
-Funcionalidade: Locadora
+# language: pt
+
+@unitario
+Funcionalidade: Alugar Filme
   
   Como usuario
   Eu quero cadastrar aluguéis de filmes
