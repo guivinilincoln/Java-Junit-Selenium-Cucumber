@@ -17,6 +17,6 @@ import cucumber.api.junit.Cucumber;
 		dryRun = false, // quando "true" ele não executa os teste, so valida os steps
 		strict = false// quando "true" se um passo quebrar da todo teste com failed
 )
-public class Runner {
+public class RunnerAprendendoCucumber {
 
 }
