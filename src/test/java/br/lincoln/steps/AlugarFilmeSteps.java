@@ -10,10 +10,10 @@ import br.lincoln.entidades.Filme;
 import br.lincoln.entidades.NotaAluguel;
 import br.lincoln.entidades.utils.DateUtils;
 import br.lincoln.servicos.AluguelService;
-import cucumber.api.DataTable;
-import cucumber.api.java.es.Dado;
-import cucumber.api.java.it.Quando;
-import cucumber.api.java.pt.Então;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
 
 public class AlugarFilmeSteps {
 
@@ -99,5 +99,10 @@ public class AlugarFilmeSteps {
 		filme = new Filme();
 		filme.setEstoque(Integer.parseInt(map.get("estoque")));
 		filme.setAlguel(Integer.parseInt(map.get("preco")));
+	}
+	
+	@Dado("que o prazo é dia {int}\\/{int}\\/{int}")
+	public void queOPrazoÉDia(Integer int1, Integer int2, Integer int3) {
+	 
 	}
 }

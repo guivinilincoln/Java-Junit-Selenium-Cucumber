@@ -6,11 +6,10 @@ import java.util.Date;
 
 import org.junit.Assert;
 
-import br.lincoln.converters.DateConvert;
-import cucumber.api.Transform;
-import cucumber.api.java.es.Dado;
-import cucumber.api.java.it.Quando;
-import cucumber.api.java.pt.Então;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
 
 public class AprenderCucumberSteps {
 	@Dado("^que criei o arquivo corretamente$")
@@ -47,8 +46,8 @@ public class AprenderCucumberSteps {
 
 	Date entrega = new Date();
 
-	@Dado("^que o prazo é dia (.*)$")
-	public void que_o_prazo_é_dia(@Transform(DateConvert.class) Date data) throws Throwable {
+	@Dado("^que o prazo é dia (data)$")
+	public void que_o_prazo_é_dia( Date data) throws Throwable {
 		entrega = data;
 	}
 

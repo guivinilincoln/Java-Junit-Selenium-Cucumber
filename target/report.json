@@ -1,11 +1,5 @@
 [
   {
-    "comments": [
-      {
-        "line": 1,
-        "value": "#language: pt"
-      }
-    ],
     "line": 3,
     "elements": [
       {
@@ -17,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6451636400,
+              "duration": 6153504800,
               "status": "passed"
             },
             "line": 10,
@@ -29,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 299331600,
+              "duration": 141408700,
               "status": "passed"
             },
             "line": 11,
@@ -47,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 100847200,
+              "duration": 78878400,
               "status": "passed"
             },
             "line": 12,
@@ -65,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 684925800,
+              "duration": 877835400,
               "status": "passed"
             },
             "line": 13,
@@ -77,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 31803800,
+              "duration": 31875300,
               "status": "passed"
             },
             "line": 14,
@@ -89,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 64437500,
+              "duration": 102379100,
               "status": "passed"
             },
             "line": 15,
@@ -101,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 314526300,
+              "duration": 264329700,
               "status": "passed"
             },
             "line": 16,
@@ -114,10 +108,11 @@
         ]
       },
       {
+        "start_timestamp": "2020-02-17T03:00:37.656Z",
         "before": [
           {
             "result": {
-              "duration": 165000,
+              "duration": 1015300,
               "status": "passed"
             },
             "match": {
@@ -132,16 +127,16 @@
         "after": [
           {
             "result": {
-              "duration": 386419900,
+              "duration": 338247600,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.foto(Scenario)"
+              "location": "InserirContasSteps.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 611144000,
+              "duration": 585318900,
               "status": "passed"
             },
             "match": {
@@ -154,7 +149,7 @@
         "steps": [
           {
             "result": {
-              "duration": 99491600,
+              "duration": 134475300,
               "status": "passed"
             },
             "line": 19,
@@ -172,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 398877600,
+              "duration": 456029900,
               "status": "passed"
             },
             "line": 20,
@@ -184,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 25152600,
+              "duration": 25010900,
               "status": "passed"
             },
             "line": 21,
@@ -193,6 +188,11 @@
               "location": "InserirContasSteps.aContaÉInseridaComSucesso()"
             },
             "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
           }
         ]
       },
@@ -205,7 +205,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6213668600,
+              "duration": 6171920600,
               "status": "passed"
             },
             "line": 10,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 148061300,
+              "duration": 120763900,
               "status": "passed"
             },
             "line": 11,
@@ -235,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 96320600,
+              "duration": 81734100,
               "status": "passed"
             },
             "line": 12,
@@ -253,7 +253,7 @@
           },
           {
             "result": {
-              "duration": 747681800,
+              "duration": 778504200,
               "status": "passed"
             },
             "line": 13,
@@ -265,7 +265,7 @@
           },
           {
             "result": {
-              "duration": 36302600,
+              "duration": 29942100,
               "status": "passed"
             },
             "line": 14,
@@ -277,7 +277,7 @@
           },
           {
             "result": {
-              "duration": 86067100,
+              "duration": 62673300,
               "status": "passed"
             },
             "line": 15,
@@ -289,7 +289,7 @@
           },
           {
             "result": {
-              "duration": 278335400,
+              "duration": 256959200,
               "status": "passed"
             },
             "line": 16,
@@ -302,10 +302,11 @@
         ]
       },
       {
+        "start_timestamp": "2020-02-17T03:00:46.907Z",
         "before": [
           {
             "result": {
-              "duration": 169200,
+              "duration": 193600,
               "status": "passed"
             },
             "match": {
@@ -320,16 +321,16 @@
         "after": [
           {
             "result": {
-              "duration": 322199800,
+              "duration": 338392900,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.foto(Scenario)"
+              "location": "InserirContasSteps.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 1038023300,
+              "duration": 589352500,
               "status": "passed"
             },
             "match": {
@@ -342,7 +343,7 @@
         "steps": [
           {
             "result": {
-              "duration": 269856300,
+              "duration": 274267200,
               "status": "passed"
             },
             "line": 24,
@@ -354,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 41787700,
+              "duration": 29106800,
               "status": "passed"
             },
             "line": 25,
@@ -363,6 +364,11 @@
               "location": "InserirContasSteps.souNotificarQueONomeDaContaÉObrigatório()"
             },
             "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
           }
         ]
       },
@@ -375,7 +381,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6179286000,
+              "duration": 6175067400,
               "status": "passed"
             },
             "line": 10,
@@ -387,7 +393,7 @@
           },
           {
             "result": {
-              "duration": 126180100,
+              "duration": 103220100,
               "status": "passed"
             },
             "line": 11,
@@ -405,7 +411,7 @@
           },
           {
             "result": {
-              "duration": 96364900,
+              "duration": 78612800,
               "status": "passed"
             },
             "line": 12,
@@ -423,7 +429,7 @@
           },
           {
             "result": {
-              "duration": 752488500,
+              "duration": 823014700,
               "status": "passed"
             },
             "line": 13,
@@ -435,7 +441,7 @@
           },
           {
             "result": {
-              "duration": 38473900,
+              "duration": 28348100,
               "status": "passed"
             },
             "line": 14,
@@ -447,7 +453,7 @@
           },
           {
             "result": {
-              "duration": 75949200,
+              "duration": 70130100,
               "status": "passed"
             },
             "line": 15,
@@ -459,7 +465,7 @@
           },
           {
             "result": {
-              "duration": 279462800,
+              "duration": 470728800,
               "status": "passed"
             },
             "line": 16,
@@ -472,10 +478,11 @@
         ]
       },
       {
+        "start_timestamp": "2020-02-17T03:00:55.648Z",
         "before": [
           {
             "result": {
-              "duration": 78000,
+              "duration": 162900,
               "status": "passed"
             },
             "match": {
@@ -490,16 +497,16 @@
         "after": [
           {
             "result": {
-              "duration": 396076200,
+              "duration": 332567900,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.foto(Scenario)"
+              "location": "InserirContasSteps.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 595053400,
+              "duration": 593923100,
               "status": "passed"
             },
             "match": {
@@ -512,7 +519,7 @@
         "steps": [
           {
             "result": {
-              "duration": 133343700,
+              "duration": 97938100,
               "status": "passed"
             },
             "line": 28,
@@ -530,7 +537,7 @@
           },
           {
             "result": {
-              "duration": 324859400,
+              "duration": 412964600,
               "status": "passed"
             },
             "line": 29,
@@ -542,7 +549,7 @@
           },
           {
             "result": {
-              "duration": 27817400,
+              "duration": 31084000,
               "status": "passed"
             },
             "line": 30,
@@ -551,6 +558,11 @@
               "location": "InserirContasSteps.sou_notificado_que_já_existe_uma_conta_com_esse_nome()"
             },
             "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
           }
         ]
       },
@@ -563,7 +575,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6050493400,
+              "duration": 6631861100,
               "status": "passed"
             },
             "line": 10,
@@ -575,7 +587,7 @@
           },
           {
             "result": {
-              "duration": 131204300,
+              "duration": 113644800,
               "status": "passed"
             },
             "line": 11,
@@ -593,7 +605,7 @@
           },
           {
             "result": {
-              "duration": 96437501,
+              "duration": 74327400,
               "status": "passed"
             },
             "line": 12,
@@ -611,7 +623,7 @@
           },
           {
             "result": {
-              "duration": 733632801,
+              "duration": 850729900,
               "status": "passed"
             },
             "line": 13,
@@ -623,7 +635,7 @@
           },
           {
             "result": {
-              "duration": 34693599,
+              "duration": 33566600,
               "status": "passed"
             },
             "line": 14,
@@ -635,7 +647,7 @@
           },
           {
             "result": {
-              "duration": 66912200,
+              "duration": 55984900,
               "status": "passed"
             },
             "line": 15,
@@ -647,7 +659,7 @@
           },
           {
             "result": {
-              "duration": 240830900,
+              "duration": 270172300,
               "status": "passed"
             },
             "line": 16,
@@ -660,10 +672,11 @@
         ]
       },
       {
+        "start_timestamp": "2020-02-17T03:01:04.872Z",
         "before": [
           {
             "result": {
-              "duration": 39700,
+              "duration": 153500,
               "status": "passed"
             },
             "match": {
@@ -678,16 +691,16 @@
         "after": [
           {
             "result": {
-              "duration": 352704901,
+              "duration": 336112300,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.foto(Scenario)"
+              "location": "InserirContasSteps.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 587043200,
+              "duration": 576782800,
               "status": "passed"
             },
             "match": {
@@ -700,7 +713,7 @@
         "steps": [
           {
             "result": {
-              "duration": 87242500,
+              "duration": 96923500,
               "status": "passed"
             },
             "line": 33,
@@ -714,14 +727,11 @@
               ],
               "location": "InserirContasSteps.informoAConta(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 431449200,
+              "duration": 412415700,
               "status": "passed"
             },
             "line": 34,
@@ -733,7 +743,7 @@
           },
           {
             "result": {
-              "duration": 29333100,
+              "duration": 30005300,
               "status": "passed"
             },
             "line": 35,
@@ -747,15 +757,11 @@
               ],
               "location": "InserirContasSteps.receboAMensagem(String)"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Então "
           }
         ],
         "tags": [
           {
-            "line": 2,
             "name": "@funcionais"
           }
         ]
@@ -769,7 +775,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6689141900,
+              "duration": 6165721900,
               "status": "passed"
             },
             "line": 10,
@@ -781,7 +787,7 @@
           },
           {
             "result": {
-              "duration": 127933401,
+              "duration": 107251900,
               "status": "passed"
             },
             "line": 11,
@@ -799,7 +805,7 @@
           },
           {
             "result": {
-              "duration": 85712901,
+              "duration": 74661600,
               "status": "passed"
             },
             "line": 12,
@@ -817,7 +823,7 @@
           },
           {
             "result": {
-              "duration": 833963200,
+              "duration": 800995700,
               "status": "passed"
             },
             "line": 13,
@@ -829,7 +835,7 @@
           },
           {
             "result": {
-              "duration": 39474700,
+              "duration": 32494900,
               "status": "passed"
             },
             "line": 14,
@@ -841,7 +847,7 @@
           },
           {
             "result": {
-              "duration": 78084800,
+              "duration": 72764400,
               "status": "passed"
             },
             "line": 15,
@@ -853,7 +859,7 @@
           },
           {
             "result": {
-              "duration": 280462001,
+              "duration": 248060200,
               "status": "passed"
             },
             "line": 16,
@@ -866,10 +872,11 @@
         ]
       },
       {
+        "start_timestamp": "2020-02-17T03:01:14.368Z",
         "before": [
           {
             "result": {
-              "duration": 107801,
+              "duration": 271100,
               "status": "passed"
             },
             "match": {
@@ -884,16 +891,16 @@
         "after": [
           {
             "result": {
-              "duration": 347012900,
+              "duration": 311238500,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.foto(Scenario)"
+              "location": "InserirContasSteps.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 1288362800,
+              "duration": 593404600,
               "status": "passed"
             },
             "match": {
@@ -906,7 +913,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52939200,
+              "duration": 44089800,
               "status": "passed"
             },
             "line": 33,
@@ -920,14 +927,11 @@
               ],
               "location": "InserirContasSteps.informoAConta(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 351240799,
+              "duration": 275903800,
               "status": "passed"
             },
             "line": 34,
@@ -939,7 +943,7 @@
           },
           {
             "result": {
-              "duration": 43845499,
+              "duration": 31287500,
               "status": "passed"
             },
             "line": 35,
@@ -953,15 +957,11 @@
               ],
               "location": "InserirContasSteps.receboAMensagem(String)"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Então "
           }
         ],
         "tags": [
           {
-            "line": 2,
             "name": "@funcionais"
           }
         ]
@@ -975,7 +975,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6418191499,
+              "duration": 6232068200,
               "status": "passed"
             },
             "line": 10,
@@ -987,7 +987,7 @@
           },
           {
             "result": {
-              "duration": 186466000,
+              "duration": 111454700,
               "status": "passed"
             },
             "line": 11,
@@ -1005,7 +1005,7 @@
           },
           {
             "result": {
-              "duration": 99269800,
+              "duration": 77840900,
               "status": "passed"
             },
             "line": 12,
@@ -1023,7 +1023,7 @@
           },
           {
             "result": {
-              "duration": 729734199,
+              "duration": 819655600,
               "status": "passed"
             },
             "line": 13,
@@ -1035,7 +1035,7 @@
           },
           {
             "result": {
-              "duration": 48348701,
+              "duration": 32625800,
               "status": "passed"
             },
             "line": 14,
@@ -1047,7 +1047,7 @@
           },
           {
             "result": {
-              "duration": 86509400,
+              "duration": 64757500,
               "status": "passed"
             },
             "line": 15,
@@ -1059,7 +1059,7 @@
           },
           {
             "result": {
-              "duration": 284387901,
+              "duration": 428402900,
               "status": "passed"
             },
             "line": 16,
@@ -1072,10 +1072,11 @@
         ]
       },
       {
+        "start_timestamp": "2020-02-17T03:01:23.132Z",
         "before": [
           {
             "result": {
-              "duration": 38100,
+              "duration": 139700,
               "status": "passed"
             },
             "match": {
@@ -1090,16 +1091,16 @@
         "after": [
           {
             "result": {
-              "duration": 371836700,
+              "duration": 399762900,
               "status": "passed"
             },
             "match": {
-              "location": "InserirContasSteps.foto(Scenario)"
+              "location": "InserirContasSteps.screenshot(Scenario)"
             }
           },
           {
             "result": {
-              "duration": 598267301,
+              "duration": 588919600,
               "status": "passed"
             },
             "match": {
@@ -1112,7 +1113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 146830900,
+              "duration": 95846500,
               "status": "passed"
             },
             "line": 33,
@@ -1126,14 +1127,11 @@
               ],
               "location": "InserirContasSteps.informoAConta(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 388452099,
+              "duration": 356367600,
               "status": "passed"
             },
             "line": 34,
@@ -1145,7 +1143,7 @@
           },
           {
             "result": {
-              "duration": 34910100,
+              "duration": 33078700,
               "status": "passed"
             },
             "line": 35,
@@ -1159,29 +1157,29 @@
               ],
               "location": "InserirContasSteps.receboAMensagem(String)"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Então "
           }
         ],
         "tags": [
           {
-            "line": 2,
             "name": "@funcionais"
           }
         ]
       }
     ],
     "name": "Cadastro de contas",
-    "description": "\nComo um usuário \nGostaria de cadastrar contas\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "description": "  Como um usuário \n  Gostaria de cadastrar contas\n  Para que eu possa distribuir meu dinheiro de uma forma mais organizada",
     "id": "cadastro-de-contas",
     "keyword": "Funcionalidade",
-    "uri": "inserir_conta.feature",
+    "uri": "file:src/test/resources/featues/inserir_conta.feature",
     "tags": [
       {
-        "line": 2,
-        "name": "@funcionais"
+        "name": "@funcionais",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
       }
     ]
   }

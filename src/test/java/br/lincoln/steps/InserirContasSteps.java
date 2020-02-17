@@ -2,6 +2,7 @@ package br.lincoln.steps;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
@@ -11,12 +12,13 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import cucumber.api.java.es.Dado;
-import cucumber.api.java.it.Quando;
-import cucumber.api.java.pt.Então;
+import io.cucumber.core.api.Scenario;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Então;
+import io.cucumber.java.pt.Quando;
+
 
 public class InserirContasSteps {
 	private WebDriver driver;
@@ -99,17 +101,18 @@ public class InserirContasSteps {
 		System.out.println("Começando aqui");
 	}
 
-	@After(order = 1, value =  {
-			"~@unitario", "@funcionais"
-	})
-	public void foto(Scenario cenario) throws IOException {
+	@After(order = 1, value = "@funcionais")
+	public void screenshot(Scenario cenario) {
+		Random gerador = new Random();
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(file, new File("target/fotos/"+cenario.getId()+".jpg"));
+		try {
+			FileUtils.copyFile(file, new File("target\\screenshot\\"+ gerador.nextInt() +".jpg"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
-	@After(order = 0, value = {
-			"~@unitario", "@funcionais"
-	})
+	@After(order = 0, value = "@funcionais")
 	public void fecharNavegador() {
 		driver.quit();
 		System.out.println("Terminando");
